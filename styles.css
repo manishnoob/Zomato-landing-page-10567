@@ -24,7 +24,6 @@
 .navbar a{
     text-decoration: none;
     color: white;
-
 }
 
 .navbar__menu_container{
@@ -41,5 +40,21 @@
     border-radius: 100%;
     border: solid 1px white;
     display: none;
-     
 }
+@media only screen and (max-width: 600px) {
+    .navbar__menu_container .user_icon {
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+
+    .navbar{
+        padding: 16px;
+    }
+    .hero__section{
+    min-height: 80vh;        
+    }
+}   
+
+
