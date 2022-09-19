@@ -24,5 +24,10 @@
 .navbar a{
     text-decoration: none;
     color: white;
-    
+
+}
+
+.navbar__menu_container{
+    display: flex;
+    gap: 20px;
 }
