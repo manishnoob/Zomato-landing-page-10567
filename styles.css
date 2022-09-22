@@ -140,7 +140,7 @@
 .we__offer_card{
     border-radius: 10px;
     overflow: hidden;
-    border: 1px #e0e0e0;
+    border: 1px solid #e0e0e0;
     transform: all 0.3s ease;
 
 }
@@ -330,6 +330,68 @@
 .semiContainer .right .input_container {
     display: flex;
     gap: 0.5rem;
+}
+
+.input_container{
+    flex-wrap: wrap;
+}
+
+.input_container button,
+.input_container input {
+    padding: 10px 12px;
+}
+
+.input_container input{
+    flex: auto;
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+   }
+
+.input_container button{
+    border: none;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+ }
+
+ .right .download__app_container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+ }
+
+ .download__app_container h5{
+    font-weight: 400;
+    color: gray;
+ }
+
+ .download__app_container div{
+    display: flex;
+    gap: 1rem;
+ }
+
+ .download__app_container div img{
+    width: 35%;
+ }
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+    .get__the_app .semiContainer .left,
+    .get__the_app .semiContainer .right{
+        flex: 1;
+    }
+ 
+    .get__the_app .semiContainer{
+
+    }
+
+    
 }
 
 
